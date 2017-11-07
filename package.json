@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-additional-columns",
+  "version": "1.0.0",
+  "main": "dist/bootstrap-additional-columns.min.css",
+  "description": "Add additional column definitions to bootstraps grid system",
+  "scripts": {
+    "build": "cleancss -o dist/bootstrap-additional-columns.min.css bootstrap-additional-columns.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnWo/bootstrap-additional-columns.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "responsive",
+    "grid",
+    "column",
+    "row"
+  ],
+  "author": "Enno Woortmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnWo/bootstrap-additional-columns/issues"
+  },
+  "homepage": "https://github.com/EnWo/bootstrap-additional-columns#readme",
+  "devDependencies": {
+    "clean-css-cli": "^4.1.10"
+  }
+}
